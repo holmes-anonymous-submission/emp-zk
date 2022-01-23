@@ -6,7 +6,7 @@ Please attribute credits to the original authors and cite their paper**s** when 
 
 ## Changes
 
-The majority of changes are in this PR: [6963f5](https://github.com/ucb-holmes/emp-zk/commit/6963f52a3a932ff2374bbea52a39001c2dd2ee3b).
+The majority of changes are:
 
 - The library is renamed as `emp-zk-holmes` to avoid conflicts.
 - The function `mod(a, b)` is replaced by `mod_uint128(a)` assuming b is the hardcoded prime.
